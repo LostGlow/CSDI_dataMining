@@ -369,6 +369,7 @@ class CSDI_Traffic(CSDI_base):
                 self.lambda_phys = 0.0
         else:
             self.physics_loss_fn = None
+
             self.use_physics = False
             self.lambda_phys = 0.0
 
